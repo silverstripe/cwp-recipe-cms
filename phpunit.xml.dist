@@ -1,4 +1,4 @@
-<phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
     <testsuite name="cwp-recipe-cms">
         <directory>vendor/cwp/cwp-core/tests</directory>
         <directory>vendor/cwp/cwp/tests</directory>
