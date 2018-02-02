@@ -12,7 +12,8 @@ php:
 
 before_script:
   - composer validate
+  - composer require --no-update cwp/starter-theme 2.x-dev
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
-  - vendor/bin/phpunit --testsuite cwp-recipe-core
+  - vendor/bin/phpunit --testsuite cwp-recipe-cms
