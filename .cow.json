@@ -4,8 +4,7 @@
   "dependency-constraint": "exact",
   "vendors": [
     "cwp",
-    "silverstripe",
-    "symbiote"
+    "silverstripe"
   ],
   "upgrade-only": [
     "silverstripe/recipe-cms"
