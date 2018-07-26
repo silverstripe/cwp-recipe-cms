@@ -18,7 +18,7 @@
     "extra": {
         "project-files": [
             "app/*"
-        },
+        ],
         "branch-alias": {
             "dev-master": "2.x-dev"
         }
