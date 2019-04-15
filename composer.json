@@ -6,9 +6,9 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "4.3.x-dev",
-        "cwp/cwp-recipe-core": "2.2.x-dev",
-        "cwp/cwp": "2.2.x-dev",
+        "silverstripe/recipe-cms": "4.4.x-dev",
+        "cwp/cwp-recipe-core": "2.3.x-dev",
+        "cwp/cwp": "2.3.x-dev",
         "cwp/cwp-pdfexport": "1.0.x-dev",
         "silverstripe/html5": "2.0.x-dev"
     },
@@ -16,9 +16,6 @@
         "phpunit/phpunit": "^5.7"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        },
         "project-files": []
     },
     "config": {
