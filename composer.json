@@ -9,7 +9,7 @@
         "silverstripe/recipe-cms": "4.4.x-dev",
         "cwp/cwp-recipe-core": "2.3.x-dev",
         "cwp/cwp": "2.3.x-dev",
-        "cwp/cwp-pdfexport": "1.0.x-dev",
+        "cwp/cwp-pdfexport": "1.1.x-dev",
         "silverstripe/html5": "2.0.x-dev"
     },
     "require-dev": {
