@@ -1,42 +1,8 @@
 version: ~> 1.0
 
-# Not using self-jobs-range as we want to exclude PGSQL which isn't supported on CWP
 import:
-  - silverstripe/silverstripe-travis-shared:config/provision/self.yml
+  - silverstripe/silverstripe-travis-shared:config/provision/cwp-self-jobs-range.yml
 
-# Manually install starter theme for a few functional tests, otherwise the 'Welcome to Silverstripe' no theme fallback
-# template is shown which will break the tests
 env:
   global:
-    - REQUIRE_CWP_STARTER_THEME="^3"
     - PHPUNIT_SUITE="cwp-recipe-cms"
-
-jobs:
-  fast_finish: true
-  include:
-    - php: 7.1
-      env:
-        - DB=MYSQL
-        - PHPUNIT_TEST=1
-    - php: 7.2
-      env:
-        - DB=MYSQL
-        - PHPUNIT_TEST=1
-        - COW_TEST=1
-    - php: 7.3
-      env:
-        - DB=MYSQL
-        - PDO=1
-        - PHPUNIT_TEST=1
-        - PHPCS_TEST=1
-    - php: 7.4
-      env:
-        - DB=MYSQL
-        - PHPUNIT_COVERAGE_TEST=1
-    - php: nightly
-      env:
-        - DB=MYSQL
-        - PHPUNIT_TEST=1
-        - COMPOSER_INSTALL_ARG=--ignore-platform-reqs
-  allow_failures:
-    - php: nightly
