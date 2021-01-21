@@ -1,6 +1,6 @@
 ## CWP CMS Recipe
 
-[![Build Status](https://travis-ci.org/silverstripe/cwp-recipe-cms.svg?branch=master)](https://travis-ci.org/silverstripe/cwp-recipe-cms)
+[![Build Status](https://api.travis-ci.com/silverstripe/cwp-recipe-cms.svg?branch=2)](https://travis-ci.com/silverstripe/cwp-recipe-cms)
 [![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 Extra CMS functionality recipe for a [CWP 2](https://www.cwp.govt.nz) installation. This includes the following core
