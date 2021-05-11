@@ -6,11 +6,11 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "4.x-dev",
-        "cwp/cwp-recipe-core": "2.x-dev",
-        "cwp/cwp": "2.x-dev",
-        "cwp/cwp-pdfexport": "1.x-dev",
-        "silverstripe/html5": "2.x-dev"
+        "silverstripe/recipe-cms": "4.8.0-beta2",
+        "cwp/cwp-recipe-core": "2.8.0-beta1",
+        "cwp/cwp": "2.8.0-beta1",
+        "cwp/cwp-pdfexport": "1.2.0-beta1",
+        "silverstripe/html5": "2.1.0-beta1"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
