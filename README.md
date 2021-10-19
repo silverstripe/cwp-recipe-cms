@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is no longer in-use. There is no recommended alternative.
+
 ## CWP CMS Recipe
 
 [![Build Status](https://api.travis-ci.com/silverstripe/cwp-recipe-cms.svg?branch=2)](https://travis-ci.com/silverstripe/cwp-recipe-cms)
